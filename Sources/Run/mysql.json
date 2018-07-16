@@ -1,8 +1,8 @@
 //Database configuration
 
 {
-    "hostname": "127.0.0.1",
-    "user": "6Exik/Quy7Ucn9x@10.0.10.71",
+    "hostname": "172-20-0-248",
+    "user": "root",
     "password": "root",
     "database": "mycooldb",
     "encoding": "utf8mb4"

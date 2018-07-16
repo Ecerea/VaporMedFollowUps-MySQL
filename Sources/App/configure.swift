@@ -8,7 +8,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     
     let transportConfig = MySQLTransportConfig.unverifiedTLS
     let mysqlConfig = MySQLDatabaseConfig(
-        hostname: "127.0.0.1",
+        hostname: "172-20-0-248",
         port: 3306,
         username: "root",
         password: "root",
