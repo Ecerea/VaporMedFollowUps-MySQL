@@ -11,7 +11,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
         hostname: "172.20.0.248",
         port: 3306,
         username: "3DzyCwM6cIP2QJ8@10.0.10.71",
-        password: "root",
+        password: "HartlEnterprises",
         database: "3DzyCwM6cIP2QJ8",
         transport: transportConfig
     )
