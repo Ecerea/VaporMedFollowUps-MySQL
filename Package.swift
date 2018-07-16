@@ -10,7 +10,7 @@ let package = Package(
         //.package(url: "https://github.com/vapor/mysql-provider.git", from: "2.0.0")
     ],
     targets: [
-        .target(name: "App", dependencies: ["Vapor","FluentMySQL", "MySQLProvider"]),
+        .target(name: "App", dependencies: ["Vapor","FluentMySQL"]),
         .target(name: "Run", dependencies: ["App"]),
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]
