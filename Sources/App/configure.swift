@@ -10,9 +10,9 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     let mysqlConfig = MySQLDatabaseConfig(
         hostname: "172.20.0.248",
         port: 3306,
-        username: "root",
+        username: "3DzyCwM6cIP2QJ8@10.0.10.71",
         password: "root",
-        database: "mycooldb",
+        database: "3DzyCwM6cIP2QJ8",
         transport: transportConfig
     )
     services.register(mysqlConfig)
