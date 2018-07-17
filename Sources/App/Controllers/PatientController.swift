@@ -14,7 +14,9 @@ final class PatientController {
     func index(_ req: Request) throws -> Future<[Patient]> {
         print("GET")
         let  providerID = req.http.headers["providerID"].first ?? ""
+        print(providerID)
         return Patient.query(on: req).filter(\.providerID == providerID).all().map({ (patients) -> ([Patient]) in
+            print(patients)
             return patients
         })
     }
