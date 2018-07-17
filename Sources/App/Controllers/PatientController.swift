@@ -41,7 +41,7 @@ final class PatientController {
             return HTTPResponse(status: .badRequest)
         }
         
-        guard let content = json["content"] as? ByteData else {
+        guard let content = json["content"] as? Array<Int> else {
             print("byteData + \(json)")
             return HTTPResponse(status: .badRequest)
         }

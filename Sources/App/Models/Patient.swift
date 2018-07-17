@@ -17,9 +17,9 @@ final class Patient: MySQLModel {
     var providerID: String
     var currentIV: String
     var updated: String
-    var content: ByteData
+    var content: Array<Int>
     
-    init(id: Int? = nil, patientID: String, providerID: String, currentIV: String, updated: String, content: ByteData) {
+    init(id: Int? = nil, patientID: String, providerID: String, currentIV: String, updated: String, content: Array<Int>) {
         self.id = id
         self.patientID = patientID
         self.providerID = providerID
